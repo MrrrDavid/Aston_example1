@@ -1,11 +1,13 @@
+package homework1.task1;
+
 public class Cat extends Animal {
 
     static {
-        System.out.println("Класс Cat был загружен");
+        System.out.println("Класс homework1.task1.Cat был загружен");
     }
 
     {
-        System.out.println("Объект класса Cat был создан");
+        System.out.println("Объект класса homework1.task1.Cat был создан");
         //значения по умолчанию. Можно задать в нестатическом блоке или проинициализировать сразу при создании переменной
         isTail = true;
         isShortHair = false;
@@ -47,7 +49,7 @@ public class Cat extends Animal {
 
     @Override
     public void display() {
-        System.out.println("Cat: \n" + "имя: " + super.getName() + ", порода: " + super.getBreed()
+        System.out.println("homework1.task1.Cat: \n" + "имя: " + super.getName() + ", порода: " + super.getBreed()
                 + ", возраст: " + super.getAge() + ", вес: " + super.getWeight()
                 + ", короткая шерсть?: " + (isShortHair ? "да" : "нет") + ", есть хвост?: " + (isTail ? "да" : "нет"));
     }

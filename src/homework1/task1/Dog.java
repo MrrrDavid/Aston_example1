@@ -1,10 +1,12 @@
+package homework1.task1;
+
 public class Dog extends Animal {
     static {
-        System.out.println("Загрузился класс Dog");
+        System.out.println("Загрузился класс homework1.task1.Dog");
     }
 
     {
-        System.out.println("Объект класса Dog был создан");
+        System.out.println("Объект класса homework1.task1.Dog был создан");
 
     }
 
@@ -20,7 +22,7 @@ public class Dog extends Animal {
 
     @Override
     public void display() {
-        System.out.println("Dog: \n" + "имя: " + super.getName() + " порода: " + super.getBreed()
+        System.out.println("homework1.task1.Dog: \n" + "имя: " + super.getName() + " порода: " + super.getBreed()
                 + " возраст: " + super.getAge() + " вес: " + super.getWeight()
                 + " количество команд для дрессировки: " + countCommand);
     }

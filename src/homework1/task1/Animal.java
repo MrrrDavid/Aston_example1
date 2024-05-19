@@ -1,3 +1,5 @@
+package homework1.task1;
+
 public abstract class Animal implements Walkable {
 
     protected String breed;
