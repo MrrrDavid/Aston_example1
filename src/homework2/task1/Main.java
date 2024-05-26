@@ -2,6 +2,7 @@ package homework2.task1;
 
 
 public class Main {
+
     public static void main(String[] args) {
 
         Car sedan = new Sedan("A", "бензин", 5, 200);
