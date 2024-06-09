@@ -1,7 +1,5 @@
 package homework3.task1;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {

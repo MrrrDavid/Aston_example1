@@ -23,6 +23,7 @@ public class Main {
                 }
 
                 Set<Character> set = new HashSet<>();
+
                 for (char ch : string.toCharArray()) {
                     set.add(ch);
                 }
